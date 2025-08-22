@@ -1,0 +1,22 @@
+{
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "sqltools.completionLanguages": ["sql"],
+  "sqltools.codelensLanguages": ["sql"],
+  "sqltools.format": {
+    "language": "sql",
+    "reservedWordCase": "upper",
+    "linesBetweenQueries": "preserve"
+  },
+  "sqltools.useNodeRuntime": true,
+  "sqltools.disableNodeDetectNotifications": false,
+  "sqltools.connections": [
+    {
+      "previewLimit": 200,
+      "driver": "SQLite",
+      "database": "TYSQL5_SQLite/TYSQL.sqlite",
+      "name": "TYSQL.sqlite"
+    }
+  ],
+  "sqltools.autoConnectTo": ["TYSQL.sqlite"],
+  "sqltools.highlightQuery": true
+}

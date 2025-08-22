@@ -1,0 +1,8 @@
+#vim:ft=ini
+
+[sqlfluff]
+dialect = ansi
+exclude_rules = AM04, L014
+
+[sqlfluff:rules:capitalisation.keywords]
+capitalisation_policy = upper
