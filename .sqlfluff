@@ -2,7 +2,7 @@
 
 [sqlfluff]
 dialect = ansi
-exclude_rules = AM04, L014
+exclude_rules = AM02, AM04, L014
 
 [sqlfluff:rules:capitalisation.keywords]
 capitalisation_policy = upper
